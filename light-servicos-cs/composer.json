@@ -1,0 +1,21 @@
+{
+  "name": "celepar/light-servicos-cs",
+  "description": "Pacote para uso dos Serviços da Central de Seguranca Celepar.",
+  "keywords": ["light-php", "central-seguranca","serviços", "laravel"],
+  "authors": [
+    {
+      "name": "Roberson A. Faria",
+      "email": "roberson.faria@celepar.pr.gov.br"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "celepar/light-central-seguranca": "*",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Celepar\\Light\\ServicosCS\\": "src/"
+    }
+  }
+}

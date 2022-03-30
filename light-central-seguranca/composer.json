@@ -1,0 +1,23 @@
+{
+  "name": "celepar/light-central-seguranca",
+  "description": "Pacote para Autenticação no Central de Seguranca Celepar.",
+  "keywords": ["light-php", "central-seguranca", "laravel"],
+  "authors": [
+    {
+      "name": "Patrik Unterstell",
+      "email": "pmenezes@celepar.pr.gov.br"
+    },
+    {
+      "name": "Roberson A. Faria",
+      "email": "roberson.faria@celepar.pr.gov.br"
+    }
+  ],
+  "require": {
+    "league/oauth2-client": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Celepar\\Light\\CentralSeguranca\\": "src/"
+    }
+  }
+}

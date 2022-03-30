@@ -1,0 +1,21 @@
+{
+    "name": "celepar/light-forms",
+    "description": "Layouts de Forms pre-definidos para uso no Light-PHP para Laravel5.",
+    "keywords": ["light-php", "forms", "layout", "laravel"],
+    "author": "João Alfredo Knopik Junior",
+    "require": {
+        "celepar/light-layout": "*",
+        "jakjr/messenger": "1.*"
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "http://satis.celepar.parana"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Celepar\\Light\\Forms\\": "src/"
+        }
+    }
+}

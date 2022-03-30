@@ -1,0 +1,29 @@
+{
+    "name": "celepar/light-pdf",
+    "autoload": {
+        "psr-4": {
+            "Celepar\\Light\\Pdf\\": "src/"
+        }
+    },
+    "require": {
+      "php": ">=5.4.0",
+      "rmccue/requests": ">=1.0"
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "http://satis.celepar.parana"
+      },
+      {
+        "packagist": false
+      }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Celepar\\Light\\Pdf\\Tests\\": "tests/"
+        }
+    }
+}

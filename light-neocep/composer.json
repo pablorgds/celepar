@@ -1,0 +1,19 @@
+{
+    "name": "celepar/light-neocep",
+    "description": "Pacote para integração de apps Laravel/LightPHP com o NeoCEP",
+    "authors": [
+        {
+            "name": "Roberson A. Faria",
+            "email": "roberson.faria@celepar.pr.gov.br"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.9",
+      "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Celepar\\Light\\Neocep\\": "src/"
+        }
+    }
+}
