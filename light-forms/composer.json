@@ -9,8 +9,8 @@
     },
     "repositories": [
       {
-        "type": "composer",
-        "url": "http://satis.celepar.parana"
+        "type": "vcs",
+        "url": "git@github.com:pablorgds/celepar"
       }
     ],
     "autoload": {
