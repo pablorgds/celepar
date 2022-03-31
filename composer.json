@@ -1,0 +1,10 @@
+{
+    "name": "pablorgds/celepar",
+    "description": "Projeto minimo Light-PHP.",
+    "keywords": ["framework", "laravel", "light-php"],
+    "license": "property",
+    "type": "library",
+    "require": {
+    }
+    
+}
